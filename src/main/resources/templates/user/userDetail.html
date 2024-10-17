@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>사용자 정보</title>
+</head>
+<body>
+<h1>사용자 정보 페이지</h1>
+<div><a th:href="@{/}">메인 이동</a></div>
+<ul>
+	<li id="userNum"></li>
+	<li id="userName"></li>
+	<li id="userPwd"></li>
+	<li id="userCreatedAt"></li>
+	<li id="userUpdatedAt"></li>
+</ul>
+<script th:src="@{/js/userDetail-fetch.js}"></script>
+</body>
+</html>

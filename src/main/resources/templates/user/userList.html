@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>사용자 목록 페이지</title>
+</head>
+<body>
+<h1>사용자 목록 페이지</h1>
+<div id="loading_id">loading...</div>
+<div id="error_id">error...</div>
+<div><a th:href="@{/}">메인 이동</a></div>
+<ul id="userList_id"></ul>
+
+<script th:src="@{/js/userList-fetch.js}"></script>
+</body>
+</html>
